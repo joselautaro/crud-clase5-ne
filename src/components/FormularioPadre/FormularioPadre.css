@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 800px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    color: aliceblue;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+button{
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 5px;
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(83, 155, 83);
+}

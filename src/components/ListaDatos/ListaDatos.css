@@ -1,0 +1,24 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+}
+p{
+    color: aliceblue;
+}
+.trash{
+    color: red;
+    font-size: 30px;
+}
+.div-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.pencil{
+    color: cadetblue;
+    font-size: 30px;
+}
