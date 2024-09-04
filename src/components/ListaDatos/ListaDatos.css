@@ -1,24 +1,55 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
 }
 h2{
-    color: aliceblue;
-    text-align: center;
+  color: azure;
 }
-p{
-    color: aliceblue;
-}
-.trash{
-    color: red;
+.datos-table {
+    width: 100%;
+    border-collapse: separate; /* Permite la separación entre celdas */
+    border-spacing: 0; /* Resetea el espaciado predeterminado */
+    margin-top: 20px;
+    background-color: #574a4a; /* Color de fondo de la tabla */
+  }
+  
+  .datos-table th, .datos-table td {
+    padding: 12px 15px; /* Espacio interior en las celdas */
+    border: 1px solid rgb(126, 111, 111); /* Línea divisoria blanca entre las celdas */
+    text-align: left; /* Alineación del texto */
+  }
+  
+  .datos-table th {
+    background-color: #af604c; /* Color de fondo de los encabezados */
+    color: white; /* Color del texto en los encabezados */
+    font-weight: bold;
+  }
+  
+  .datos-table td {
+    background-color: #f4f4f4; /* Color de fondo de las celdas de datos */
+  }
+  
+  .datos-table td:first-child {
+    border-left: none; /* Elimina la línea izquierda del primer td */
+  }
+  
+  .datos-table td:last-child {
+    border-right: none; /* Elimina la línea derecha del último td */
+  }
+  
+  .pencil, .trash {
+    margin-left: 10px;
+    cursor: pointer;
     font-size: 30px;
-}
-.div-container{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-}
-.pencil{
+  }
+  .pencil{
     color: cadetblue;
-    font-size: 30px;
-}
+    background-color: transparent;
+  }
+  .trash{
+    color: red;
+    background-color: transparent;
+  }
+  
